@@ -40,3 +40,27 @@ textarea {
     border-radius: 5px;
     resize: none;
 }
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: green;
+    color: azure;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000000;
+    font-weight: bolder;
+}
