@@ -5,12 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     background-color: rgb(173, 204, 204);
-
+    margin: 0;
 }
 
 .container {
     background-color: aqua;
-    backdrop-filter: blur(10px);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 20px;
@@ -19,22 +18,17 @@ body {
     flex-direction: column;
 }
 
-.container:hover {
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
-}
-
 h1 {
     font-size: 40px;
     margin-bottom: 20px;
-
 }
 
 textarea {
     width: 500px;
-    height: 350px;
+    height: 200px;
     margin: 10px auto;
     display: block;
-    font-size: 25;
+    font-size: 18px;
     padding: 10px;
     border: 1px solid #dddddd;
     border-radius: 5px;
@@ -45,17 +39,18 @@ button {
     font-size: 16px;
     padding: 10px 20px;
     background-color: green;
-    color: azure;
+    color: white;
     border: none;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 15px;
 }
 
 button:hover {
-    background-color: aquamarine;
+    background-color: darkgreen;
 }
 
 #result {
